@@ -1,5 +1,9 @@
 @media(max-width:1920px) {
 	#rev_slider_3_1_forcefullwidth,#rev_slider_12_1_wrapper ,#rev_slider_22_1_wrapper{padding-top:80px !important;}
+	/* .owl-carousel .owl-nav .owl-prev { left: -50px; } */
+	/* .owl-carousel .owl-nav .owl-next { right: -50px; } */
+	.popup-images.align-left .img-one img { position: relative; left: -16%; max-width: 120% !important; }
+	.popup-images.align-left .img-three { left: -60px; }
 }
 @media(max-width:1680px) {
 }
