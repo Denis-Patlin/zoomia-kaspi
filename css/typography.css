@@ -242,6 +242,25 @@ Extra class
 	padding-top: 15px;
 }
 
+.footer__inner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	text-align: center;
+}
+
+.menu-about-menu-container-flex ul {
+	display: inline-block;
+	text-align: left;
+}
+
+.menu-about-menu-container-flex li {
+	list-style-type: none;
+	text-align: center;
+}
+
+
 /* 1232131313123132123123123 */
 
 .main-content__text-box {
