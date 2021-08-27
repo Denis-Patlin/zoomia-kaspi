@@ -233,6 +233,22 @@ Loader
 /*---------------------------------------------------------------------
 Extra class
 ---------------------------------------------------------------------*/
+.footer-logo {
+	width: 350px;
+  	height: 200px;
+}
+
+.main-content__title-box {
+	padding-top: 15px;
+}
+
+/* 1232131313123132123123123 */
+
+.main-content__text-box {
+	line-height: 1.6;
+}
+
+
 section { padding: 120px 0; }
 .main-content{ overflow-x: hidden;}
 .container-fluid { padding: 0 100px; }
