@@ -261,12 +261,11 @@ Extra class
 }
 
 
-/* 1232131313123132123123123 */
-
 .main-content__text-box {
 	line-height: 1.6;
 }
 
+/* 1232131313123132123123123 */
 
 section { padding: 120px 0; }
 .main-content{ overflow-x: hidden;}
@@ -275,7 +274,7 @@ section { padding: 120px 0; }
 .iq-border-top{border-top: 1px solid rgba(142, 152, 159, 0.13)}
 .overflow-hidden{overflow: hidden;}
 /*---------------------------------------------------------------------
-                                Loader
+                                Loader (Disabled)
 -----------------------------------------------------------------------*/
 #loading { background-color: #eee; height: 100%; width: 100%; position: fixed; margin-top: 0px; top: 0px; left: 0px; bottom: 0px; overflow: hidden !important; right: 0px; z-index: 999999; }
 #loading-center { width: 100%; height: 100%; position: relative; }
