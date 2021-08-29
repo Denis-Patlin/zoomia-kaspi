@@ -76,9 +76,6 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 }
 
 
-
-
-
 /* HTML Tags */
 a { color: #52BCD3; outline: none; }
 a:focus, a:hover { color: #1e1e1e; outline: none; }
@@ -188,8 +185,8 @@ ul.iq-list { margin: 0px; }
 /*---------------------------------------------------------------------
                               Back to Top
 -----------------------------------------------------------------------*/
-#back-to-top .top { z-index: 999; position: fixed; margin: 0px; color: #ffffff; background: #1e1e1e; position: fixed; bottom: 30px; right: 25px; z-index: 999; font-size: 26px; width: 50px; height: 50px; text-align: center; line-height: 50px; border-radius: 90px; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; transition: all .3s ease-in-out; }
-#back-to-top .top:hover { background: #52BCD3; color: #ffffff; -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); }
+#back-to-top .top { z-index: 999; position: fixed; margin: 0px; color: #ffffff; background: #ff6a5c; position: fixed; bottom: 30px; right: 25px; z-index: 999; font-size: 26px; width: 50px; height: 50px; text-align: center; line-height: 50px; border-radius: 90px; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; transition: all .3s ease-in-out; }
+#back-to-top .top:hover { background: #ff6a5c; color: #ffffff; -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); }
 
 /*---------------------------------------------------------------------
                                Loader
@@ -230,7 +227,7 @@ header .navbar .navbar-brand img { height: 60px; transition: all 0.5s ease-in-ou
 header .navbar .navbar-nav { margin-top: 0; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
 header .navbar .navbar-nav>li { margin: 0 30px 0 0; position: relative; }
 header .navbar .navbar-nav>li:last-child { margin-right: 0; }
-header .navbar .navbar-nav .nav-item a { color: #1e1e1e; padding: 10px 0;  font-family: 'Now', sans-serif; font-size: 16px; }
+header .navbar .navbar-nav .nav-item a { color: #1e1e1e; padding: 10px 0;  font-family: 'Montserrat', sans-serif; font-size: 16px; }
 header .navbar .navbar-nav .nav-item a:hover, header .navbar .navbar-nav .nav-item a:focus, header .navbar .navbar-nav .nav-item a.active, header .navbar .navbar-nav .nav-item a.active:focus, header .navbar .navbar-nav .nav-item a.active:hover { color: #52BCD3; background: none; box-shadow: none; }
 header .navbar .navbar-nav .nav-item a::before { background: #52BCD3; bottom: 0; content: ""; height: 2px; left: 0; position: absolute; width: 0; transition: all 0.3s ease-out 0s; }
 header .navbar .navbar-nav .nav-item a.active::before, header .navbar .navbar-nav .nav-item:hover>a::before, header .navbar .navbar-nav .nav-item>a:hover::before { width: 100%; }
@@ -565,7 +562,7 @@ padding-top: 25px; height: 0; }
 /*---------------------------------------------------------------------
  Footer
 -----------------------------------------------------------------------*/
-footer { padding-top: 75px; }
+/* footer { padding-top: 75px; } */
 footer .iq-subscribe { margin-bottom: 100px; }
 footer ul{padding: 0;}
 footer .menu li { display: block; border-bottom: 0px; margin-bottom: 15px; line-height: 24px; padding: 0; }
