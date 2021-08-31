@@ -1331,3 +1331,11 @@ section {
     background-position: center center !important;
     background-repeat: no-repeat;
 }
+
+/*---------------------------------------------------------------------
+					Call-To-Action BLOCK
+-----------------------------------------------------------------------*/
+
+.CTA_title {
+	font-size: 20px;
+}

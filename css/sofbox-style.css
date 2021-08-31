@@ -2588,3 +2588,17 @@ blog post
 .custom-tab.horizontaltab-demo15.dark-blue-bg .nav-pills .nav-link.active{background:#4731b6;color: #ffffff;}
 #rev_slider_1_1 .nav-dir-horizontal{margin-top: 50px;}
 
+/*---------------------------------------------------------------------
+					Call-To-Action BLOCK
+-----------------------------------------------------------------------*/
+
+.CTA {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.CTA_title {
+	padding-bottom: 80px;
+	font-size: 20px;
+}
