@@ -1643,6 +1643,11 @@ Pricing Table
 .iq-pricing-table .button { background: #16171d; }
 .iq-pricing-table .iq-mtb-30{background: #f7f7f7; padding: 30px; border-radius: 4px;}
 
+
+.pricing-warning {
+	font-size: 11px;
+}
+
 /*---------------------------------------------------------------------
 Blog
 -----------------------------------------------------------------------*/
