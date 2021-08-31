@@ -213,12 +213,19 @@
 	.custom-tab.horizontaltab-slider .tab-pane.active {
 		padding: 25px 110px 60px;
 	}
-}
 
-@media (max-width: 1199px) {
 	header ul.shop_list {
 		margin-bottom: 0px;
 		margin-left: 0px;
+	}
+}
+
+@media (max-width: 1050px) {
+
+	ol,
+	ul {
+		padding-left: 0px;
+		margin-bottom: 1em;
 	}
 }
 
